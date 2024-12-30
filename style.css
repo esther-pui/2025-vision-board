@@ -1,0 +1,181 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e9e7ec;
+        color: #535156;
+    }
+
+    a {
+        color: #ee929c;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    
+        &:hover {
+            color: #6db36c;
+            text-decoration: underline;
+        }
+    }
+
+    .container {
+        width: 1200px;
+        height: 2200px;
+        border-radius: 1em;
+        padding: 2em;
+        display: flex;
+        gap: 1em;
+        flex-direction: column; 
+    }
+
+    .col {
+        display: flex;
+        
+        &.col-1 {
+            flex: 2;
+            gap: 1em;
+        }
+        &.col-2 {
+            flex: 2;
+            gap: 1em;
+        }
+        &.col-3 {
+            flex: 2;
+            gap: 1em;
+        }
+        &.col-4 {
+            flex: 2;
+            gap: 1em;
+        }
+    }
+
+    .row {
+        border-radius: 1em;
+        flex: 1;
+        gap: 1em;
+        display: flex;
+        flex-direction: row; 
+
+        &.row-2 {
+            flex-direction: column; 
+        }
+        &.row-3 {
+            flex-direction: column; 
+        }
+        &.row-4 {
+            flex: 1;
+            flex-direction: column; 
+        }
+        &.row-5 {
+            flex: 2;
+            flex-direction: column; 
+        }
+    }
+
+    .row-box {
+        flex: 1;    
+        border-radius: 1em;
+        transition: 0.3s ease-in-out;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+        padding: 1em 0;
+        margin-top: 20px;
+        position: relative;
+        bottom: 0;
+    }
+
+    .box-1 {
+        background-image: url('images/1.jpg');
+    }
+
+    .box-2 {
+        background-image: url('images/2.jpeg');
+    }
+
+    .box-3 {
+        background-image: url('images/3.jpeg');
+    }
+
+    .box-4 {
+        background-image: url('images/4.jpeg');
+    }
+
+    .box-5 {
+        background-image: url('images/5.jpg');
+    }
+
+    .box-6 {
+        background-image: url('images/6.jpeg');
+    }
+
+    .box-7 {
+        background-image: url('images/7.jpeg');
+    }
+
+    .box-8 {
+        background-image: url('images/8.jpeg');
+    }
+
+    .box-9 {
+        background-image: url('images/9.jpeg');
+    }
+
+    .box-10 {
+        background-image: url('images/10.jpeg');
+    }
+
+    .box-11 {
+        background-image: url('images/11.jpeg');
+    }
+
+    @media(max-width: 1024px){
+        .container {
+            flex-direction: column;
+        }
+
+        .col {
+            &.col-1 {
+                flex-direction: row;
+            }
+
+            &.col-2 {
+                flex-direction: row;
+            }
+
+            &.row-3 {
+                flex-direction: row;
+            }
+        }
+    }
+
+    @media(max-width: 650px){
+        .container {
+            max-width: 1100px;
+            max-height: 1150px;
+            gap: 0.5em;
+        }
+
+        .row {
+            gap: 0.5em;
+        }
+
+        .col {
+            gap: 0.5em;
+        }
+    }
