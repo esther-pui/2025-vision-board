@@ -1,7 +1,7 @@
 ## 2025 Vision Board
 My 2025 Vision Board in a bento grid layout, created with CSS 🍒✨
 
-[**DEMO**](https://ahderdev.github.io/2025-vision-board/)
+[**DEMO**](https://esther-pui.github.io/2025-vision-board/)
 
 ### Installation:
 1. Open the `index.html` file in your IDE.
