@@ -1,5 +1,5 @@
 ## 2025 Vision Board
-My 2025 Vision Board in a bento grid layout, created with CSS (With Demo) 🍒✨
+My 2025 Vision Board in a bento grid layout, created with CSS 🍒✨
 
 [**DEMO**](https://esther-pui.github.io/2025-vision-board/)
 
